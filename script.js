@@ -6,6 +6,21 @@ const lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "
 const specialChar = ["!", "@", "#", "$", "%", "^", "&", "*", "?"]
 const numberChar = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
+var lengthPW = window.prompt(
+  "Please enter the length of your password (between 8-128 characters)"
+);
+console.log(length);
+
+if (lengthPW > 7 && lengthPW < 129) {
+  window.alert(
+    "Your password length is " + lengthPW + ". Press OK to continue"
+  );
+}
+else {
+  window.alert(
+    "Password must be between 8-128 characters. Click OK to try again"
+  );
+}
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
