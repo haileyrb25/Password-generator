@@ -22,13 +22,13 @@ else {
   );
   generatePassword();
 }
-// Write password to the #password input
+// Write password to the #password input 
 function writePassword() {
+  passwordText.value = "";
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 //ask if they want upper caser letters
@@ -58,5 +58,7 @@ if (passNumb) {
 
 
 console.log (finalComboArray)
+var word = "";
+word += finalComboArray[Math.floor(Math.random() * finalComboArray.length)];
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
