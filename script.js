@@ -20,6 +20,7 @@ else {
   window.alert(
     "Password must be between 8-128 characters. Click OK to try again"
   );
+  generatePassword();
 }
 // Write password to the #password input
 function writePassword() {
