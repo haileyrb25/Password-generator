@@ -4,7 +4,7 @@ For this repo, we have a password generator that can be used to make a serious o
 
 
 [Live Link](https://haileyrb25.github.io/Password-generator/)
-Click this like to see the final project come to life! On this live link, you should be able to click through and generate a password with different pop-up prompts.
+Click this like to see the final project come to life! On this live link, you should be able to click through and generate a password with different pop-up prompts. These prompts will alow you to choose if you would like upper case, lower case, numbers, and/or special characters in your generated password.
 
 [Live Link](https://github.com/haileyrb25/Password-generator)
 Click this link to see the github activity that was pushed during the process! On this live link, you should be able to see the github activity and any changes that are made to the project.
