@@ -56,11 +56,7 @@ if (!passUp && !passLow && !passSpec && !passNumb){
 return null;
 } 
 
-
-
 console.log (finalComboArray)
-
-
 
 var word = "";
 for (let i = 0; i < lengthPW; i ++) {

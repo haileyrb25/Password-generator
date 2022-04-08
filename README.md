@@ -13,6 +13,10 @@ Click this link to see the github activity that was pushed during the process! O
 
 Here is what the final product looks like:
 ![screenshot](./assets/images/password%20screenshots.jpg)
+This should be what the function looks like before you get the password
+
+![screenshot](./assets/screencapture-file-Users-hailey-Documents-UCF-Homework-password-gen-Password-generator-index-html-2022-04-07-23_41_04.jpg)
+This should be what you get when you choose all characters for your password!
 
 
 
